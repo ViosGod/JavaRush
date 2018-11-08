@@ -1,0 +1,17 @@
+/*Here is code with solutions for JavaRush tasks before the IntelijIDEA and JR-plugin has been installed*/
+
+//Solution 1
+//Task: Write a program that displays «It's cool to be a programmer!».
+
+package com.javarush.test.level00.lesson02.task01;
+
+/* It's cool to be a programmer!
+Write a program that displays «It's cool to be a programmer!».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+        System.out.println("It's cool to be a programmer!");
+    }
+}
