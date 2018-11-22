@@ -34,3 +34,124 @@ public class Solution
       System.out.println("I intend to live forever. So far, so good.");
     }
 }
+
+
+package com.javarush.test.level00.lesson03.task02;
+
+/* It's the 31st century already
+Write a program that displays the current year.
+    It’s the 31st century already, for the record.
+
+    Tip:
+    Replace the century of the current year with 31.
+    You have to display a four-digit number.
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+        System.out.println("3018");//add your code here
+    }
+}
+
+
+package com.javarush.test.level00.lesson03.task03;
+
+/* I am so clever
+Write a program that displays «I am so clever that sometimes I don't understand a single word of what I am saying.».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+        System.out.println("I am so clever that sometimes I don't understand a single word of what I am saying.");//add your code here
+    }
+}
+
+
+package com.javarush.test.level00.lesson07.task01;
+
+/* Want to grab some Java?
+Write a program that displays «Want to grab some Java?»
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+       System.out.println("Want to grab some Java?"); //add your code here
+    }
+}
+
+
+package com.javarush.test.level00.lesson07.task02;
+
+/* I'll show you my source code if you show me yours
+Write a program that displays «I'll show you my source code if you show me yours.»
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+       System.out.println("I'll show you my source code if you show me yours."); //add your code here
+    }
+}
+
+
+package com.javarush.test.level00.lesson07.task03;
+
+/* Nice Bolts wanna screw?
+Write a program to display «Nice Bolts wanna screw?».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+      System.out.println("Nice Bolts wanna screw?");  //add your code here
+    }
+}
+
+
+package com.javarush.test.level01.lesson04.task01;
+
+/* Blame the guy who can't speak English
+Write a program that displays «If something goes wrong at the office, blame the guy who can't speak English.»
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+      System.out.println("If something goes wrong at the office, blame the guy who can't speak English.");  //add your code here
+    }
+}
+
+
+import java.lang.String;
+
+/* I don't get excited by money, they soothe me
+Write a program that displays «I don't get excited by money, they soothe me.» 10 times.
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+      String s = "I don't get excited by money, they soothe me.";
+      print5Times(s);//add your code here
+    }
+
+
+    public static void print5Times(String s)
+    {
+        
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+    }
+}
+
