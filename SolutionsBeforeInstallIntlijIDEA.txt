@@ -155,3 +155,321 @@ public class Solution
     }
 }
 
+
+package com.javarush.test.level01.lesson08.task01;
+
+import java.lang.String;
+
+/* Life is not fair
+Write a program that displays 9 times: «Life is not fair - get used to it.».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+       String s = "Life is not fair - get used to it.";
+       print3Times(s);
+       print3Times(s);
+       print3Times(s);
+       //add your code here
+    }
+
+    public static void print3Times(String s)
+    {
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+    }
+}
+
+
+package com.javarush.test.level01.lesson08.task02;
+
+/* Stakeholder in your life
+Write a program that displays 4 times: «The most important stakeholder in your life is You.».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+       String s = "The most important stakeholder in your life is You.";
+       print2Times(s);
+       print2Times(s);//add your code here
+    }
+
+    public static void print2Times(String s)
+    {
+        System.out.println(s);
+        System.out.println(s);
+    }
+}
+
+
+
+package com.javarush.test.level01.lesson08.task03;
+
+/* Plant now
+Write a program that displays 16 times: «What you plant now, you will harvest later.».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+       print4Times("What you plant now, you will harvest later.");
+       print4Times("What you plant now, you will harvest later.");
+       print4Times("What you plant now, you will harvest later.");
+       print4Times("What you plant now, you will harvest later.");//add your code here
+    }
+
+    public static void print4Times(String s)
+    {
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+        System.out.println(s);
+    }
+}
+
+
+package com.javarush.test.level02.lesson03.task01;
+
+/* Thing is done
+Write a program that displays: «Step by step and the thing is done.».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+      System.out.println("Step by step and the thing is done.");  //add your code here
+    }
+}
+
+
+package com.javarush.test.level02.lesson03.task02;
+
+/* Do the impossible
+Write a program that displays 7 times: «It's kind of fun to do the impossible.».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+       for (int i = 0; i<7; i++) {
+           System.out.println("It's kind of fun to do the impossible.");
+       } //add your code here
+    }
+}
+
+package com.javarush.test.level02.lesson03.task03;
+
+/* Learn something useful
+Write a program that displays: «Always desire to learn something useful.».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+      System.out.println("Always desire to learn something useful.");  //add your code here
+    }
+}
+
+package com.javarush.test.level02.lesson05.task01;
+
+/* Many people are alive
+Write a program that displays 3 times: «Many people are alive only because it's illegal to shoot them.».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+       for (int i = 0; i< 3; i++) {
+           System.out.println("Many people are alive only because it's illegal to shoot them.");
+       } //add your code here
+    }
+}
+
+
+package com.javarush.test.level02.lesson05.task02;
+
+/* If I want your opinion
+Write a program that displays: «If I want your opinion, I'll ask you to fill out the necessary forms.».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+      System.out.println("If I want your opinion, I'll ask you to fill out the necessary forms.");  //add your code here
+    }
+}
+
+
+package com.javarush.test.level02.lesson05.task03;
+
+/* I never said most of the things I said
+Write a program that displays 20 times: «I never said most of the things I said.».
+*/
+public class Solution
+{
+    public static void main(String[] args)
+    {
+       print16Times("I never said most of the things I said.");
+       print4Times("I never said most of the things I said.");//add your code here
+    }
+
+    public static void print2Times(String s)
+    {
+        System.out.println(s);
+        System.out.println(s);
+    }
+
+    public static void print4Times(String s)
+    {
+        print2Times(s);
+        print2Times(s);
+    }
+
+    public static void print8Times(String s)
+    {
+        print4Times(s);
+        print4Times(s);
+    }
+
+    public static void print12Times(String s)
+    {
+        print8Times(s);
+        print4Times(s);
+    }
+
+    public static void print16Times(String s)
+    {
+        print8Times(s);
+        print8Times(s);
+    }
+}
+
+
+package com.javarush.test.level02.lesson08.task01;
+
+import java.lang.System;
+
+/* Minimum of two numbers
+Write a function that returns a minimum of two numbers.
+*/
+public class Solution
+{
+    public static int min(int a, int b)
+    {
+        if (a<b) return a;
+        else return b;//add your code here
+    }
+
+    public static void main(String[] args) throws Exception
+    {
+        System.out.println( min(12,33) );
+        System.out.println( min(-20,0) );
+        System.out.println( min(-10,-20) );
+    }
+
+}
+
+package com.javarush.test.level02.lesson08.task02;
+
+/* Maximum of two numbers
+Write a function that returns a maximum of two numbers.
+*/
+public class Solution
+{
+    public static int max(int a, int b)
+    {
+       if (a>b) return a;
+        else return b;//add your code here //add your code here
+    }
+
+    public static void main(String[] args) throws Exception
+    {
+        System.out.println( max(10,20) );
+        System.out.println( max(-10,-20) );
+        System.out.println( max(-100,0) );
+    }
+
+}
+
+
+package com.javarush.test.level02.lesson08.task03;
+
+/* Minimum of three numbers
+Write a function that returns a minimum of three numbers.
+*/
+public class Solution
+{
+    public static int min(int a, int b, int c)
+    {
+     if(a<b && a<c)
+             return a;
+        if(b<a && b<c)
+            return b;
+        else
+            return c;
+    }
+
+    public static void main(String[] args) throws Exception
+    {
+        System.out.println( min(1,2,3) );
+        System.out.println( min(-1,-2,-3) );
+        System.out.println( min(3,5,3) );
+        System.out.println( min(10,5,10) );
+    }
+
+}
+
+package com.javarush.test.level02.lesson08.task04;
+
+/* Minimum of four numbers
+Write a function that returns a minimum of four numbers.
+    The function min(a,b,c,d) has to use (call) the function min(a, b)
+*/
+public class Solution
+{
+    public static int min(int a, int b, int c, int d)
+    {
+       int m1 = min(a, b);
+       int m2 = min(c, d);
+       return min(m1, m2);//add your code here
+
+    }
+
+    public static int min(int a, int b)
+    {
+        if (a<b) return a;
+        else return b;//add your code here
+
+    }
+
+    public static void main(String[] args) throws Exception
+    {
+        System.out.println( min(-20, -10) );
+        System.out.println( min(-20, -10, -30, -40) );
+        System.out.println( min(-20, -10, -30, 40) );
+    }
+}
+
+package com.javarush.test.level02.lesson08.task05;
+
+/* String duplication
+Write a function that displays three times the passed string. Each string should be on a new line.
+*/
+public class Solution
+{
+    public static void print3(String s)
+    {
+      for( int i  = 0; i<3; i++) {
+          System.out.println(s);
+      }  //add your code here
+
+    }
+
+    public static void main(String[] args)
+    {
+        print3("I love you!");
+    }
+}
