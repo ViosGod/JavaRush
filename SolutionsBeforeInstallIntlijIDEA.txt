@@ -473,3 +473,104 @@ public class Solution
         print3("I love you!");
     }
 }
+
+
+package com.javarush.test.level03.lesson04.task01;
+
+/* Date of birth
+Write a program that displays your date of birth as follows: MAY 1 2012
+*/
+
+public class Solution
+{
+    public static void main(String[] args)
+    {
+        System.out.println("MAY 29 1999");//add your code here
+    }
+}
+
+
+package com.javarush.test.level03.lesson04.task02;
+
+/* My name
+Write a program that displays your name on 5 rows. Each row should contain 10 words (your name) separated by a space.
+*/
+
+public class Solution
+{
+    public static void main(String[] args)
+    {
+       for (int i=0; i<5; i++) System.out.println("Ivan Ivan Ivan Ivan Ivan Ivan Ivan Ivan Ivan Ivan"); //add your code here
+
+    }
+}
+
+
+package com.javarush.test.level03.lesson04.task03;
+
+/* Diego is my favorite teacher
+Write a program that displays the text «Diego is my favorite teacher» 1 time.
+*/
+
+public class Solution
+{
+    public static void main(String[] args)
+    {
+       System.out.println("Diego is my favorite teacher"); //add your code here
+
+    }
+}
+
+package com.javarush.test.level03.lesson04.task04;
+
+/* The product of 10 numbers
+Write a program that displays the product of numbers from 1 to 10.
+    Hint: it’s three million and a little more
+*/
+
+public class Solution
+{
+    public static void main(String[] args)
+    {
+        int p=1;
+       for(int i = 1; i < 11; i++) p*=i;
+       System.out.println(p);//add your code here
+
+    }
+}
+
+package com.javarush.test.level03.lesson04.task05;
+
+/* The sum of 10 numbers
+Write a program that displays the sum of numbers from 1 to 10 by lines:
+    1
+    1+2=3
+    1+2+3=6
+    1+2+3+4=10
+    …
+    Example output:
+    1
+    3
+    6
+    10
+    …
+*/
+
+public class Solution
+{
+    public static void main(String[] args)
+    {
+        int sum=0;
+        int i=1;
+        while (i<=10) {
+            sum+=i;
+            System.out.println(sum);
+            i++;
+        }
+        //add your code here
+
+    }
+}
+
+
+
