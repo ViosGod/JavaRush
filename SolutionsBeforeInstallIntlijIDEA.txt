@@ -764,4 +764,71 @@ public class Cat {
     }
 }
 
+package com.javarush.test.level04.lesson02.task05;
+
+/* Count the number of cats
+Write a code that counts the number of cats created (count) and then displays it on the screen.
+*/
+
+public class Solution
+{
+    public static void main(String[] args)
+    {
+        Cat cat1 = new Cat();
+        //add your code here
+        Cat.count++;
+
+        Cat cat2 = new Cat();
+        //add your code here
+        Cat.count++;
+
+        System.out.println("Cats count is " + Cat.count);
+    }
+    public static class Cat
+    {
+        public static int count = 0;
+    }
+}
+
+package com.javarush.test.level04.lesson06.task01;
+
+/* Minimum of two numbers
+Write a program that reads two numbers from keyboard and displays to the screen the minimum of these numbers.
+*/
+
+import java.io.*;
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        //add your code here
+        C
+    }
+    
+}
+
+package com.javarush.test.level04.lesson06.task02;
+
+/* Maximum of four numbers
+Write a program that reads four numbers from keyboard and displays to the screen the maximum of these numbers.
+*/
+
+import java.io.*;
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+       BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
+   
+    int num1=Integer.parseInt(reader.readLine());
+    int num2=Integer.parseInt(reader.readLine());
+    int num3=Integer.parseInt(reader.readLine());
+    int num4=Integer.parseInt(reader.readLine());
+    System.out.println(Math.max(Math.max(num1, num2), Math.max(num3, num4)));
+
+    }
+}
+
 
