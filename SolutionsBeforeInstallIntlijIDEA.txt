@@ -572,5 +572,196 @@ public class Solution
     }
 }
 
+package com.javarush.test.level03.lesson08.task01;
+
+/* How to conquer the world
+Write a program that reads from keyboard a name and a number and displays the text:
+    «name» will conquer the world in «number» years. Bwahaha!
+    (The sequence of input data is important.)
+
+    Example:
+    Joe will conquer the world in 8 years. Bwahaha!
+*/
+
+import java.io.*;
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        //add your code here
+        BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        String name = scanner.readLine();
+        String number = scanner.readLine();
+        System.out.println(name + " will conquer the world in " + number + " years. Bwahaha!");
+    }
+}
+
+
+package com.javarush.test.level03.lesson08.task01;
+
+/* How to conquer the world
+Write a program that reads from keyboard a name and a number and displays the text:
+    «name» will conquer the world in «number» years. Bwahaha!
+    (The sequence of input data is important.)
+
+    Example:
+    Joe will conquer the world in 8 years. Bwahaha!
+*/
+
+import java.io.*;
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        //add your code here
+        BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        int number = Integer.parseInt(scanner.readLine());
+        String name = scanner.readLine();
+        System.out.println(name + " will conquer the world in " + number + " years. Bwahaha!");
+    }
+}
+
+package com.javarush.test.level03.lesson08.task02;
+
+/* Write a program that reads from keyboard a name and two numbers. Program should display the text:
+    «name» earns «number1» in «number2» years.
+*/
+
+import java.io.*;
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        //add your code here
+        BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        String number1 = scanner.readLine();
+        int number2 = Integer.parseInt(scanner.readLine());
+        String name = scanner.readLine();
+        System.out.println(name + " earns $" + number1 + " in " + number2 + " years.");
+    }
+}
+
+package com.javarush.test.level03.lesson08.task03;
+
+/* Modesty adorns a man
+Write a program that reads from keyboard a name and displays the text:
+    «name» earns $15,000 per month. Haw-haw!
+
+    Example:
+    Tim earns $15,000 per month. Haw-haw!
+*/
+
+import java.io.*;
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        //add your code here
+        BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        String name = scanner.readLine();
+        System.out.println(name + " earns $15,000 per month. Haw-haw!");
+    }
+}
+
+
+package com.javarush.test.level03.lesson08.task04;
+
+/* Sponsor! That has a proud sound!
+Write a program that reads from keyboard two names and displays the text:
+    «name1» sponsored «name2», and she became a famous singer.
+
+    Example:
+    Nick sponsored Helen, and she became a famous singer.
+*/
+
+import java.io.*;
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        //add your code here
+        BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        String name = scanner.readLine();
+        String number = scanner.readLine();
+        System.out.println(name + " sponsored " + number + ", and she became a famous singer.");
+    }
+}
+
+package com.javarush.test.level03.lesson08.task05;
+
+/* Pure love
+Write a program that reads from keyboard three names and displays the text:
+    «name1» + «name2» + «name3» = Pure love, oh, yeah! Right!
+
+    Example:
+    Joe + Eva + Angelica = Pure love, oh, yeah! Right!
+*/
+
+import java.io.*;
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        //add your code here
+         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        String name1 = scanner.readLine();
+        String name2 = scanner.readLine();
+        String name3 = scanner.readLine();
+        System.out.println(name1 + " + " + name2 + " + " + name3 + " = Pure love, oh, yeah! Right!");
+    }
+}
+
+package com.javarush.test.level04.lesson02.task02;
+
+/* Implement method addNewCat()
+Implement the addNewCat method, so that when it’s called (that is, when a new cat is added) the number of cats increases by 1. The catsCount variable is responsible for the number of cats.
+*/
+
+public class Cat {
+    private static int catsCount = 0;
+
+    public static void addNewCat() {
+        //add your code here
+        catsCount++;
+    }
+}
+
+
+package com.javarush.test.level04.lesson02.task03;
+
+/* Implement method setCatsCount()
+Implement the setCatsCount method, so the value of the catsCount variable would be equal to the passed parameter.
+*/
+
+public class Cat {
+    private static int catsCount = 0;
+
+    public static void setCatsCount(int catsCount1) {
+        //add your code here
+       catsCount = catsCount1; 
+    }
+}
+
+package com.javarush.test.level04.lesson02.task04;
+
+/* Implement method setName()
+Implement the setName method, so the value of the private String fullName variable would be equal to the String fullName local variable value.
+*/
+
+public class Cat {
+    private String fullName;
+
+    public void setName(String firstName, String lastName) {
+        fullName = firstName + " " + lastName;
+
+        //add your code here
+    }
+}
 
 
