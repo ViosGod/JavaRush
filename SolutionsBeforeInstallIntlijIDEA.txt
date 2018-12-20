@@ -831,4 +831,151 @@ public class Solution
     }
 }
 
+package com.javarush.test.level04.lesson06.task04;
+
+/* Compare names
+Write a program that reads two names from keyboard, and if the names are the same, displays «Names are identical».
+    Display «Name lengths are equal» if the names are different, but their lengths are equal.
+*/
+
+import java.io.*;
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        String name1 = scanner.readLine();
+        String name2 = scanner.readLine();
+        if (name1.equals(name2)) System.out.println("Names are identical");
+        else if (name1.length()==name2.length()) System.out.println("Name lengths are equal");
+
+    }
+}
+
+package com.javarush.test.level04.lesson10.task01;
+
+import java.io.*;
+
+/* 10 numbers
+Write a program that displays numbers from 1 to 10. Use “while” loop.
+*/
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        int i = 1;
+        while(i<=10) {
+            System.out.println(i);
+            i++;
+        }  //add your code here
+
+    }
+}
+
+package com.javarush.test.level04.lesson10.task02;
+
+import java.io.*;
+
+/* 10 numbers in reverse order
+Write a program that displays numbers from 10 to 1. Use “while” loop.
+*/
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+         int i = 10;
+        while(i>=1) {
+            System.out.println(i);
+            i--;
+        }  //add your code here
+    }
+}
+
+package com.javarush.test.level04.lesson10.task03;
+
+import java.io.*;
+
+/* You can never have too much of a good thing
+Write a program that reads from keyboard a string and number N.
+    Program should display to the screen the string N times. Use “while” loop.
+    Example input:
+    abc
+    2
+    Example output:
+    abc
+    abc
+*/
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        String str = scanner.readLine();
+        int n = Integer.parseInt(scanner.readLine());
+        int i = 0;
+        while(i<n) {
+            System.out.println(str);
+            i++;
+        }
+        //add your code here
+
+    }
+}
+
+package com.javarush.test.level04.lesson10.task04;
+
+import java.io.*;
+
+/* S-square
+Write a program that displays to the screen a square 10x10 of “S” characters. Use “while” loop.
+    Don’t separate characters in the same line.
+*/
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        int i=0;
+        while (i<10) {System.out.println("SSSSSSSSSS"); i++;}
+        //add your code here
+
+    }
+}
+
+package com.javarush.test.level04.lesson10.task05;
+
+import java.io.*;
+
+/* Multiplication table
+Write a program that displays multiplication table of 10 by 10. Use “while” loop.
+    Separate numbers by a space.
+    1 2 3 4 5 6 7 8 9 10
+    2 4 6 8 10 12 14 16 18 20
+    ...
+*/
+
+public class Solution
+{
+    public static void main(String[] args) throws Exception
+    {
+        int i = 1;
+        while (i<=10) {
+            int j=1;
+            while (j<=10) {
+                System.out.print(j*i+" ");
+                j++;
+            }
+            System.out.println("");
+            i++;
+        }
+        //add your code here
+
+    }
+}
+
+
 
